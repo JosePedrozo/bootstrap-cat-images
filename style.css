@@ -1,10 +1,40 @@
-h2 {
-    font-family: Lobster, Monospace;
+body {
+    background-color: #dbdbdb;
 }
 
-.thick-green-border {
-    border-color: green;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 50%;
+.header__info {
+    background-color: #175EFA;
+    color: #e7e7e7;
+}
+
+.title {
+    font-family: Lobster, Monospace;
+    font-size: 9rem;
+    color: #2e2e2e;
+}
+
+
+/* Media Query */
+@media (max-width: 321px) {
+    .title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 376px) and (min-width: 321px) {
+    .title {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 426px) and (min-width: 376px) {
+    .title {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+    .title {
+        font-size: 6rem;
+    }
 }
